@@ -10,7 +10,7 @@ server = 'server';
 client = 'client';
 
 Package.onUse(function (api) {
-  api.versionsFrom('0.9.4');
+  api.versionsFrom('1.6.1');
 
   api.use('coffeescript', both);
   api.use('underscore', both);
